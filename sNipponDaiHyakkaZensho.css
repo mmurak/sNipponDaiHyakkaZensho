@@ -1,0 +1,104 @@
+#TextEntry{
+	width: 100%;
+}
+#PageEntry{
+	width: 50%;
+}
+.toggle-button {
+	background-color: #f0f0f0;
+	color: #333;
+	border: 2px solid #ccc;
+	padding: 5px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: all 0.3s ease;
+	outline: none;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-button:hover {
+	background-color: #e0e0e0;
+	border-color: #bbb;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.toggle-button.selected {
+	background-color: #007bff;
+	color: #fff;
+	border-color: #0056b3;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	transform: translateY(-2px);
+}
+
+.toggle-button.selected:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+.toggle-button2 {
+	background-color: #f0f0f0;
+	color: #333;
+	border: 2px solid #ccc;
+	padding: 5px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: all 0.3s ease;
+	outline: none;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-button2:hover {
+	background-color: #e0e0e0;
+	border-color: #bbb;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.toggle-button2.selected {
+	background-color: #007bff;
+	color: #fff;
+	border-color: #0056b3;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	transform: translateY(-2px);
+}
+
+.toggle-button2.selected:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.sbutton {
+	background-color: lightskyblue;
+	color: #333;
+	border: 2px solid #ccc;
+	padding: 2px 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 12px;
+	transition: all 0.3s ease;
+	outline: none;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sbutton:hover {
+	background-color: deepskyblue;
+	border-color: #bbb;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.sbutton:active {
+	background-color: blue; /* 押された時の背景色 */
+	color: white;
+	border-color: #999;       /* 押された時の枠線の色 */
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2); /* 押された時の影 */
+	transform: translateY(1px); /* 少し下に移動して押されたように見せる */
+}
+
+.footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: lightgray;
+	text-align: center;
+}

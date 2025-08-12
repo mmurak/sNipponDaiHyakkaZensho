@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>『日本大百科全書』（1984-1989）検索</title>
+		<link rel="shortcut icon" href="kiwi-bird.png">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" href="./sNipponDaiHyakkaZensho.css">
+	</head>
+	<body>
+		<h3>小学館『日本大百科全書』（1984-1989）検索</h3>
+		<input type="textfield" id="TextEntry" placeholder="ひらがなで検索語を入力"/>
+		<br>
+		<button id="IndexSearch" >索引検索（Shift+Enter）</button>
+		<button id="EraseEntry" >索引語消去（Escape）</button>
+		<hr>
+		<input type="textfield" id="PageEntry" placeholder="巻番号（2桁）とページ数を入力"/>
+		<br>
+		<button id="OpenPage" >ページを開く（Enter）</button>
+		<button id="ErasePage" >ページ消去（Escape）</button>
+
+		<p>
+			<ul>
+			<li>検索するには、上段の検索ボックスに平仮名で検索語を入力します。</li>
+			<li>本文の検索には、下段の検索ボックスを使用します。<br>
+			巻数を2桁の数値で、その後に表示させたいページ数を続けて指定します。<br>
+			例：
+				<table border="1">
+				<tr><td>02982</td><td>　2巻の982ページ目</td></tr>
+				<tr><td>052</td><td>　5巻の2ページ目</td></tr>
+				<tr><td>11500</td><td>　11巻の500ページ目</td></tr>
+				</table>
+			※ 偶数ページはコマの左側、奇数ページはコマの右側に表示されます。
+			</li>
+			</ul>
+		</p>
+
+		<div class="footer">
+		使用するには国立国会図書館デジタルコレクションの<a href="https://www.ndl.go.jp/jp/use/digital_transmission/individuals_index.html">個人向けデジタル化資料送信サービス</a>に登録、ログインしておく必要があります。
+		</div>
+
+		<script src="./assets/index.js"></script>
+		<script src="./scripts/regulator.js"></script>
+		<script src="./scripts/sNipponDaiHyakkaZensho.js"></script>
+	</body>
+<html>
